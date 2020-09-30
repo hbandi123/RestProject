@@ -1,23 +1,23 @@
-2020-09-30 18:04:43,754 WARN  [SoapUI] Missing folder [C:\Users\SunithaSulake\Desktop\WeServicesProject-Harikrishna\my-app\ext] for external libraries
-2020-09-30 18:04:44,048 INFO  [DefaultSoapUICore] initialized soapui-settings from [C:\Users\SunithaSulake\soapui-settings.xml]
-2020-09-30 18:04:46,147 INFO  [WsdlProject] Loaded project from [file:/C:/Users/SunithaSulake/Desktop/WeServicesProject-Harikrishna/my-app/REST-Project-HariKrishna-soapui-project.xml]
-2020-09-30 18:04:46,920 INFO  [SoapUITestCaseRunner] Running SoapUI tests in project [REST Project-HariKrishna]
-2020-09-30 18:04:46,922 INFO  [SoapUITestCaseRunner] Running Project [REST Project-HariKrishna], runType = SEQUENTIAL
-2020-09-30 18:04:46,969 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [EndtoEndFlow]
-2020-09-30 18:04:46,984 INFO  [SoapUITestCaseRunner] running step [GetAccessToken]
-2020-09-30 18:04:48,753 INFO  [log] 200
-2020-09-30 18:04:48,768 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
-2020-09-30 18:04:48,775 INFO  [SoapUITestCaseRunner] running step [AdminLogin]
-2020-09-30 18:04:49,189 INFO  [log] upskills_admin
-2020-09-30 18:04:49,194 INFO  [log] 200
-2020-09-30 18:04:49,199 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
-2020-09-30 18:04:49,202 INFO  [SoapUITestCaseRunner] running step [GetAdminDetails]
-2020-09-30 18:04:49,619 INFO  [log] upskills_admin
-2020-09-30 18:04:49,620 INFO  [log] 200
-2020-09-30 18:04:49,624 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
-2020-09-30 18:04:49,629 INFO  [SoapUITestCaseRunner] running step [ProductsList]
-2020-09-30 18:04:50,015 ERROR [SoapUI] An error occurred [NCNames cannot be empty], see error log for details
-2020-09-30 18:04:50,025 ERROR [errorlog] nu.xom.IllegalNameException: NCNames cannot be empty
+2020-09-30 19:52:51,245 WARN  [SoapUI] Missing folder [C:\Users\SunithaSulake\Desktop\WeServicesProject-Harikrishna\my-app\ext] for external libraries
+2020-09-30 19:52:51,551 INFO  [DefaultSoapUICore] initialized soapui-settings from [C:\Users\SunithaSulake\soapui-settings.xml]
+2020-09-30 19:52:53,618 INFO  [WsdlProject] Loaded project from [file:/C:/Users/SunithaSulake/Desktop/WeServicesProject-Harikrishna/my-app/REST-Project-HariKrishna-soapui-project.xml]
+2020-09-30 19:52:54,633 INFO  [SoapUITestCaseRunner] Running SoapUI tests in project [REST Project-HariKrishna]
+2020-09-30 19:52:54,636 INFO  [SoapUITestCaseRunner] Running Project [REST Project-HariKrishna], runType = SEQUENTIAL
+2020-09-30 19:52:54,666 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [EndtoEndFlow]
+2020-09-30 19:52:54,700 INFO  [SoapUITestCaseRunner] running step [GetAccessToken]
+2020-09-30 19:52:56,592 INFO  [log] 200
+2020-09-30 19:52:56,651 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-09-30 19:52:56,651 INFO  [SoapUITestCaseRunner] running step [AdminLogin]
+2020-09-30 19:52:57,047 INFO  [log] upskills_admin
+2020-09-30 19:52:57,047 INFO  [log] 200
+2020-09-30 19:52:57,054 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-09-30 19:52:57,055 INFO  [SoapUITestCaseRunner] running step [GetAdminDetails]
+2020-09-30 19:52:57,410 INFO  [log] upskills_admin
+2020-09-30 19:52:57,412 INFO  [log] 200
+2020-09-30 19:52:57,414 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-09-30 19:52:57,416 INFO  [SoapUITestCaseRunner] running step [ProductsList]
+2020-09-30 19:52:58,319 ERROR [SoapUI] An error occurred [NCNames cannot be empty], see error log for details
+2020-09-30 19:52:58,330 ERROR [errorlog] nu.xom.IllegalNameException: NCNames cannot be empty
 nu.xom.IllegalNameException: NCNames cannot be empty
 	at nu.xom.Verifier.throwIllegalNameException(Verifier.java:147)
 	at nu.xom.Verifier.checkNCName(Verifier.java:121)
@@ -57,9 +57,9 @@ nu.xom.IllegalNameException: NCNames cannot be empty
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2020-09-30 18:04:50,386 INFO  [log] 200
-2020-09-30 18:04:50,389 INFO  [log] 2
-2020-09-30 18:04:50,394 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
-2020-09-30 18:04:50,396 INFO  [SoapUITestCaseRunner] running step [Logout]
-2020-09-30 18:04:51,849 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [EndtoEndFlow], time taken: 3378ms, status: FINISHED
-2020-09-30 18:04:51,855 INFO  [SoapUITestCaseRunner] Project [REST Project-HariKrishna] finished with status [FINISHED] in 4920ms
+2020-09-30 19:52:58,718 INFO  [log] 200
+2020-09-30 19:52:58,726 INFO  [log] 2
+2020-09-30 19:52:58,728 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-09-30 19:52:58,729 INFO  [SoapUITestCaseRunner] running step [Logout]
+2020-09-30 19:52:59,035 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [EndtoEndFlow], time taken: 2659ms, status: FINISHED
+2020-09-30 19:52:59,040 INFO  [SoapUITestCaseRunner] Project [REST Project-HariKrishna] finished with status [FINISHED] in 4393ms
